@@ -1,0 +1,132 @@
+#shortcut{
+	background-color: #e3e4e5;
+}
+#shortcut .w{
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+}
+#shortcut a{
+	color: #999;
+}
+#shortcut .dh{
+	font-size: 14px;
+}
+#city:hover{
+	background: #fff;
+	color: #f00;
+}
+#shortcut a:hover{
+	color: #f00;
+}
+.w{
+	margin: auto;
+	width: 1190px;
+}
+#shortcut li,.fl{
+	float: left;
+}
+
+#ttbar-mycity{
+	margin-left: 200px;
+	position: relative;
+	z-index: 20;
+}
+
+#shortcut li.spacer{
+	overflow: hidden;
+	margin: 11px 5px 0;
+	width: 1px;
+	height: 10px;
+	background: #ccc;
+}
+.fr{
+	float: right;
+}
+.fr .iconfont{
+
+	right: 5px;
+	top:10px;
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
+}
+#shortcut .dt{
+	padding-left: 7px;
+}
+.dropdown-layer{
+	left:0;
+	width: 300px;
+	text-align: center;
+	line-height: 24px;
+	position: absolute;
+}
+.china_city_list{
+	display: none;
+}
+#ttbar-mycity .item{
+	float: left;
+	width: 60px;
+	padding: 2px 0;
+}
+.myjd_list_dt,.company_list_dt,.service_list_dt,.web_list_dt{
+	position: absolute;
+	z-index: 20;
+}
+.myjd_list,.company_list,.service_list{
+	left:-15px;
+	top:30px;
+	width: 200px;
+	line-height: 24px;
+	display: none;
+}
+.myjd_list .ul_l,.company_list .ul_l,.service_list .ul_l{
+	float: left;
+	width: 80px;
+	padding: 10px 0 0 10px;
+}
+.myjd_list .ul_r,.company_list .ul_r,.service_list .ul_r{
+	float: right;
+	width: 80px;
+	padding: 10px 0;
+}
+/*客服服务*/
+.service_list{
+	right: 0;
+	width: 200px;
+	padding: 10px 0;
+}
+.item_client,.item_business{
+	padding-left: 15px;
+	font-weight: 700;
+}
+/*网站导航*/
+.web_list{
+	position: absolute;
+	right: -138px;
+	width: 1190px;
+	line-height: 24px;
+	display: none;
+}
+.web_list dl,.web_list dl dd ul{
+	float: left;
+}
+.web_list dl dd ul{
+	padding-right:10px ;
+	width: 80px;
+}
+.web_list dl dt{
+	font-weight: 700;
+	font-size: 14px;
+	color:#666;
+
+}
+.web_list dl dd{
+	font-size: 12px;	
+}
+.dropdown-layer,.myjd_list_dt,.company_list_dt,.service_list_dt,.web_list{
+	background: #fff;
+}
+
+
+

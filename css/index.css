@@ -1,0 +1,22 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	color: #666;
+	text-decoration: none;
+	cursor: pointer;
+}
+i{
+	font-style: normal;
+}
+img{
+	display: block;
+}
+body{
+	background: #F0F3EF;
+	overflow-y: scroll;
+}

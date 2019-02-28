@@ -1,0 +1,279 @@
+#banner{
+	height: 480px;
+	overflow: hidden;
+}
+
+.bl_2{
+	height:470px;
+	width: 590px;
+	position: relative;
+	float: left;
+	left: 280px;
+	top: -470px;
+
+}
+.banner_img li{
+	position:absolute;	
+}
+#btns span{
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	width: 50px;
+	height: 50px;
+	background: #000000;
+	opacity: .3;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	color: white;
+}
+#btns .prev{
+	
+	left: 0px;
+	top: 220px;
+}
+#btns .next{
+	position:absolute;
+	right:0px;
+	top:220px;
+}
+#nums{
+	position:absolute;
+	
+	height: 20px;
+	width: 320px;
+	left: 40px;
+	top: 430px;
+}
+#nums li{
+	float: left;
+	margin: 10px;
+	width: 18px;
+	height: 20px;
+	border-radius: 50%;
+	background: white;
+	color: red;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+}
+#nums .active{
+	background: #f00;
+	color: #fff;
+}
+#nums li:hover{
+	color: #fff;
+	background: #f00;
+}
+.bl_3,.bl_4{
+	width: 190px;
+	height: 480px;
+	margin-top:-480px;
+}
+.bl_3{
+	margin-left: 880px;
+	
+}
+.bl_3 li{
+	margin-top: 10px;
+}
+.bl_4{
+	float: right;
+	margin-right: 80px;
+}
+.b_user{
+	height: 150px;
+	background: #fff;
+	margin-top: 10px;
+	text-align: center;
+}
+.user_inner{
+	position: relative;
+	padding-top: 62px;
+	height: 78px;
+}
+.b_user_avatar{
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    margin-left: -34px;
+    width: 65px;
+    height: 65px;
+}
+.b_user_avatar a{
+	display: block;
+	width: 55px;
+	height: 55px;
+	border: 5px solid #e3e1df;
+	border-radius:50%;
+	overflow: hidden;
+}
+.b_user_avatar img{
+    display: block;
+    width: 55px;
+    height: 55px;
+}
+.user_show{
+    padding: 0 10px;
+}
+.user_show p{
+	width: 170px;
+	height: 20px;
+	overflow: hidden;
+	line-height: 20px;
+	width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #888;
+}
+.user_show a{
+	color: #888;
+	text-align: center;
+}
+.user_login{
+	margin-left: 52px;
+	margin-right: 5px;
+}
+.user_profit {
+    margin-top: 10px;
+    height: 25px;
+}
+.user_profit_lk{
+    display: inline-block;
+    margin: 0 5px;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    color: #e43f3b;
+    border-radius: 13px;   
+    box-shadow: 6px 8px 20px rgba(45,45,45,.15);
+}
+.user_profit_lk:hover{
+	background:#f00;
+	color: #fff;
+}
+.user_profit_lk_plus{
+	background: #363634;
+	color: #e5d790;
+	display: inline-block;
+    margin: 0 5px;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 13px;   
+    box-shadow: 6px 8px 20px rgba(45,45,45,.15);
+}
+.news{
+	overflow: hidden;
+	height: 140px;
+	background: #fff;
+}
+.news2{
+    overflow: hidden;
+    height: 140px;
+    background: #fff;
+}
+.news_hd{
+    padding-top: 13px;
+    position: relative;
+    line-height: 13px;
+}
+.news_tit{
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 15px;
+    color: #1e1e1e;
+}
+.news_more{
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    font-size: 12px;
+    color: #999;
+}
+.news_list{
+    position: relative;
+    padding-top: 8px;
+    margin: 0 15px;
+    height: 88px;
+}
+.news_item{
+    line-height: 25px;
+    max-width: 160px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #999;
+}
+.news_tag{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    height: 16px;
+    width: 35px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: 0;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #e47f7f;
+    margin-right: 6px;
+}
+.news_item_0 .news_tag {
+    background-color: #90b0c6;
+}
+.news_item_1 .news_tag {
+    background-color: #e0b95a;
+}
+.b_service{
+    overflow: hidden;
+    position: relative;
+    height: 190px;
+}
+.service_entry {
+    overflow: hidden;
+    padding: 18px 11px 11px;
+    border-top:1px solid #888;
+    background: #fff;
+
+}
+.service_lists{
+    height: 165px;
+}
+.service_items{
+    position: relative;
+    float: left;
+    width: 42px;
+    height: 55px;
+    background: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.service_lk{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    padding-top: 6px;
+    color: #666;
+}
+.service_ico {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 4px auto 0;
+    background: green;
+}
+.service_txt {
+    display: block;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 2px solid #fff;
+    color: #bea68d;
+}

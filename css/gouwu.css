@@ -1,0 +1,284 @@
+
+* {
+				margin: 0;
+				padding: 0;
+			}
+.lists {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: -130px;
+	width: 200px;
+	height: 700px;
+	box-sizing: border-box;
+	background: #6e6568;
+	list-style: none;
+}
+
+.list {
+	width: 100%;
+	line-height: 28px;
+	color: white;
+	font-size: 14px;
+	padding-left: 12px;
+}
+
+.list .menu:hover {
+	color: #c81623;
+}
+
+.list .fgx {
+	margin: 0 4px;
+}
+
+.list:hover {
+	background: #999395;
+}
+
+.list:hover .box {
+	display: block;
+}
+
+.list .box {
+	display: none;
+	width: 1000px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	right: -1000px;
+	background: #fff;
+	padding: 20px 0 10px 20px;
+}
+
+.box p:nth-child(n+2) {
+	padding: 6px 0;
+}
+
+.box p:nth-child(n+2) span {
+	display: inline-block;
+	margin: 4px 0;
+}
+
+.box .tips {
+	display: inline-block;
+	background: #999395;
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	margin-right: 10px;
+	padding: 0 10px;
+}
+
+.box span:hover {
+	color: red
+}
+
+.box .tips:hover {
+	background: #5c5251;
+	color: #fff;
+}
+
+.box a {
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.box .title {
+	vertical-align: top;
+	display: inline-block;
+	width: 70px;
+	text-align: right;
+	font-size: 12px;
+	line-height: 16px;
+	color: #666;
+	font-weight: bold;
+}
+
+.title a {
+	text-align: right;
+}
+
+.tags {
+	vertical-align: top;
+	display: inline-block;
+	color: #666;
+	font-size: 12px;
+	width: 700px;
+	line-height: 16px;
+	margin-left: 15px;
+}
+
+.tag1 {
+	padding: 0 10px;
+	border-left: 1px solid #e0e0e0;
+	font-weight: 700;
+	color: #c81623;
+	height: 14px;
+	line-height: 14px;
+	border: 1px dotted #db7078;
+}
+
+.tag {
+	padding: 0 10px;
+	border-left: 1px solid #e0e0e0;
+}
+
+.imgBox {
+	box-sizing: border-box;
+	width: 198px;
+	height: 424px;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	padding: 0 14px 0 15px;
+}
+
+.sImg {
+	display: inline-block;
+	float: left;
+	width: 83px;
+	height: 35px;
+	margin-right: 1px;
+	margin-top: 1px;
+}
+
+.bImg {
+	width: 168px;
+	height: 134px;
+	margin-top: 1px;
+	display: block;
+	float: left;
+}
+
+.imgBox img:nth-of-type(9) {
+	margin-top: 10px;
+}
+.succeed-box {
+	margin-left: 120px;
+}
+
+.succeed-box .success-cont {
+    display: inline-block;
+
+    font-family: "Microsoft YaHei";
+}
+
+.succeed-box .success-lcol {
+    float: left;
+}
+.succeed-box .success-top {
+    position: relative;
+    padding-left: 35px;
+    margin: 20px 0;
+}
+.succ-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    background: url(../img/addtocart-icons.png) 0 0 no-repeat;
+}
+.succeed-box .success-top h3 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.ftx-02, .ftx02 {
+    color: #71b247;
+}
+.succeed-box .p-img {
+    float: left;
+    width: 60px;
+    margin-right: 10px;
+    border: 1px solid #e8e8e8;
+}
+.succeed-box .p-info {
+    float: left;
+    width: 520px;
+    margin: 0;
+}
+.succeed-box .p-name {
+    width: 100%;
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.succeed-box .p-name a {
+    color: #333;
+}
+.succeed-box .p-extra {
+    display: inline-block;
+    display: block;
+    color: #aaa;
+}
+.succeed-box .p-extra .txt {
+    float: left;
+    max-width: 135px;
+    margin-right: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.succeed-box .p-extra .txt {
+    float: left;
+    max-width: 135px;
+    margin-right: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.clr {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+.succeed-box .success-btns {
+    float: right;
+    width: 338px;
+
+    overflow: hidden;
+}
+.succeed-box .success-ad {
+    float: right;
+    height: 70px;
+    width: 106px;
+    margin: 10px 0;
+}
+.succeed-box .btn-tobback {
+    padding: 0 30px;
+    margin-right: 10px;
+    background: #fff;
+    color: #E2231A;
+    border: 1px solid #fff;
+}
+.succeed-box .btn-addtocart {
+    position: relative;
+    width: 136px;
+    padding-left: 30px;
+    background: #E2231A;
+    border: 1px solid #E2231A;
+    color: #fff;
+}
+#GotoShoppingCart{
+	background: #f00;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
